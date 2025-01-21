@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components  {
+    .center-content {
+        @apply flex justify-center items-center
+    }
+}
+
+.active {
+    @apply bg-secondary-color text-white lg:bg-transparent lg:text-secondary-color
+}
